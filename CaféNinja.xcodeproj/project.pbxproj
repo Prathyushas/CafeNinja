@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18004BC81FB2311D0023DA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18004BC71FB2311D0023DA5B /* AppDelegate.swift */; };
-		18004BCA1FB2311D0023DA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18004BC91FB2311D0023DA5B /* ViewController.swift */; };
+		18004BCA1FB2311D0023DA5B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18004BC91FB2311D0023DA5B /* MainVC.swift */; };
 		18004BCD1FB2311D0023DA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18004BCB1FB2311D0023DA5B /* Main.storyboard */; };
 		18004BCF1FB2311D0023DA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18004BCE1FB2311D0023DA5B /* Assets.xcassets */; };
 		18004BD21FB2311D0023DA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18004BD01FB2311D0023DA5B /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		18004BC41FB2311D0023DA5B /* CaféNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CaféNinja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18004BC71FB2311D0023DA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18004BC91FB2311D0023DA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18004BC91FB2311D0023DA5B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		18004BCC1FB2311D0023DA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18004BCE1FB2311D0023DA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18004BD11FB2311D0023DA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,38 @@
 		18004BC61FB2311D0023DA5B /* CaféNinja */ = {
 			isa = PBXGroup;
 			children = (
+				18004BDB1FB236090023DA5B /* Controller */,
+				18004BDA1FB236040023DA5B /* View */,
+				18004BD91FB235FE0023DA5B /* Model */,
 				18004BC71FB2311D0023DA5B /* AppDelegate.swift */,
-				18004BC91FB2311D0023DA5B /* ViewController.swift */,
 				18004BCB1FB2311D0023DA5B /* Main.storyboard */,
 				18004BCE1FB2311D0023DA5B /* Assets.xcassets */,
 				18004BD01FB2311D0023DA5B /* LaunchScreen.storyboard */,
 				18004BD31FB2311D0023DA5B /* Info.plist */,
 			);
 			path = "CaféNinja";
+			sourceTree = "<group>";
+		};
+		18004BD91FB235FE0023DA5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18004BDA1FB236040023DA5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18004BDB1FB236090023DA5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18004BC91FB2311D0023DA5B /* MainVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18004BCA1FB2311D0023DA5B /* ViewController.swift in Sources */,
+				18004BCA1FB2311D0023DA5B /* MainVC.swift in Sources */,
 				18004BC81FB2311D0023DA5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
